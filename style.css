@@ -1,13 +1,14 @@
 body{
     margin: 0;
     padding: 0;
-    margin-top: 70px;
 }
 .first-section{
     display: flex;
     width: 80%;
     justify-content: space-around;
     margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 #border-left{
     border-left: 5px solid rgba(240, 102, 56, 0.973);
@@ -21,6 +22,7 @@ body{
 }
 .div-image{
     height: 100%;
+    margin-left: 10%;
 }
 .div-image img{
     height: 100%;
@@ -30,8 +32,8 @@ body{
     padding-left: 25px;
 }
 
-#introduction{
-        padding-right: 18%;
+.introduction{
+        padding-right: 5%;
        }
 .poppins{
     font-family: 'Poppins', sans-serif;
@@ -45,13 +47,12 @@ body{
 }
 .oswald{
     font-family: 'Oswald', sans-serif;
-    font-size: ;
 }
 .mission-vision-goal{
     width: 300px;
     height: 350px;
     border-radius: 15px;
-    padding: 25px 20px;
+    padding: 30px 20px;
 }
 .mission-vision-goal img{
     height: 100px;
@@ -62,11 +63,37 @@ body{
     font-size: 50px;
 }
 #mision{
-background-color: lightpink;
+background-color: rgb(231, 207, 210);
 }
 #vision{
-background-color: lightsteelblue;
+background-color: rgb(209, 215, 223);
 }
 #goal{
-    background-color: rgb(218, 161, 170);
+    background-color: rgb(240, 240, 171);
+}
+.article-image img{
+    height: 300px;
+    width: 300px;
+    margin-right: 40px;
+    margin-left: 35px;
+}
+.article-heading{
+    font-size: 35px;
+    font-weight: 900;
+}
+#last-div{
+height: 150px;
+background-color: black;
+color: white;
+text-align: center;
+border: 1px solid black;
+padding-top: 5px;
+padding-bottom: 10px;
+}
+#lobster{
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+}
+#red{
+    color: red;
 }
