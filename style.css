@@ -50,7 +50,7 @@ body{
 }
 .mission-vision-goal{
     width: 300px;
-    height: 350px;
+    height: 360px;
     border-radius: 15px;
     padding: 30px 20px;
 }
@@ -89,6 +89,7 @@ text-align: center;
 border: 1px solid black;
 padding-top: 5px;
 padding-bottom: 10px;
+margin-top: 50px;
 }
 #lobster{
     font-family: 'Lobster', cursive;
