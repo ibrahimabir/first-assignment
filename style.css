@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    padding: 0;
+    margin-top: 70px;
+}
+.first-section{
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+    margin: auto;
+}
+#border-left{
+    border-left: 5px solid rgba(240, 102, 56, 0.973);
+    line-height: 45px;
+    font-family: 'DM Serif Text', serif;
+    font-size: 40px;
+    border-radius: 3px;
+}
+.heading-color{
+    color: rgb(230, 172, 66);
+}
+.div-image{
+    height: 100%;
+}
+.div-image img{
+    height: 100%;
+    width: 100%;
+}
+.main-heading{
+    padding-left: 25px;
+}
+
+#introduction{
+        padding-right: 18%;
+       }
+.poppins{
+    font-family: 'Poppins', sans-serif;
+}
+.link-button{
+    color: white;
+    text-decoration: none;
+    background-image: linear-gradient(45deg, salmon, rgb(241, 143, 51));
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+.oswald{
+    font-family: 'Oswald', sans-serif;
+    font-size: ;
+}
+.mission-vision-goal{
+    width: 300px;
+    height: 350px;
+    border-radius: 15px;
+    padding: 25px 20px;
+}
+.mission-vision-goal img{
+    height: 100px;
+    width: 100px;
+}
+.text-align{
+    text-align: center;
+    font-size: 50px;
+}
+#mision{
+background-color: lightpink;
+}
+#vision{
+background-color: lightsteelblue;
+}
+#goal{
+    background-color: rgb(218, 161, 170);
+}
